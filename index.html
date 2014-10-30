@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Method reflect by dannypurcell</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/dannypurcell/method_reflect">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/dannypurcell/method_reflect/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/dannypurcell/method_reflect/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Method reflect</h1>
+          <p>Gives Ruby Methods some deeper self-knowledge</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/dannypurcell">dannypurcell</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h2>
+<a name="method-reflect" class="anchor" href="#method-reflect"><span class="octicon octicon-link"></span></a>Method Reflect</h2>
+
+<p>© Danny Purcell 2014 | MIT license</p>
+
+<p>Gives Ruby Methods some deeper self-knowledge.</p>
+
+<h2>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
+
+<p>Loading this gem adds several instance methods to the core Method class so methods can tell you more about themselves.</p>
+
+<p>Leverages <a href="https://github.com/lsegal/yard">YARD</a> and <a href="https://github.com/banister/method_source">method_source</a> to
+provide easy access to everything you might want to know about a method.</p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<h4>
+<a name="install-with-gem" class="anchor" href="#install-with-gem"><span class="octicon octicon-link"></span></a>Install with Gem</h4>
+
+<ul>
+<li>Available on <a href="https://rubygems.org/gems/method_reflect">Rubygems</a>
+</li>
+<li>Be sure one of your gem sources is <code>source 'https://rubygems.org'</code>
+</li>
+<li>Run <code>gem install rubycom</code>
+</li>
+</ul>
+
+<h4>
+<a name="building-locally" class="anchor" href="#building-locally"><span class="octicon octicon-link"></span></a>Building locally</h4>
+
+<ul>
+<li>Fork the repository if you wish</li>
+<li>Clone repository locally
+
+<ul>
+<li>If using the main repo: <code>git clone https://github.com/dannypurcell/method_reflect.git</code>
+</li>
+</ul>
+</li>
+<li>Run <code>rake install</code> if installing for the first time</li>
+<li>If updating to the latest version run the following commands
+
+<ul>
+<li><code>git checkout master</code></li>
+<li>
+<code>git pull origin master</code>
+
+<ul>
+<li>If that causes any problems <code>git reset --hard origin/master</code>
+</li>
+</ul>
+</li>
+<li><code>rake upgrade</code></li>
+</ul>
+</li>
+</ul>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
