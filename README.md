@@ -1,7 +1,7 @@
 Method Reflect
 ---------------
 
-&copy; Danny Purcell 2013 | MIT license
+&copy; Danny Purcell 2014 | MIT license
 
 Gives Ruby Methods some deeper self-knowledge.
 
@@ -20,7 +20,7 @@ Installation
 #### Install with Gem
 * Available on [Rubygems](https://rubygems.org/gems/method_reflect)
 * Be sure one of your gem sources is `source 'https://rubygems.org'`
-* Run `gem install rubycom`
+* Run `gem install method_reflect`
 
 #### Building locally
 * Fork the repository if you wish

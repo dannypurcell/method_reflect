@@ -38,7 +38,7 @@ end
 task :upgrade => :package do
   system('gem uninstall method_reflect -a')
   load "#{File.expand_path(File.dirname(__FILE__))}/lib/method_reflect/version.rb"
-  system("gem install #{File.expand_path(File.dirname(__FILE__))}/method-reflect-#{MethodReflect::VERSION}.gem")
+  system("gem install #{File.expand_path(File.dirname(__FILE__))}/method_reflect-#{MethodReflect::VERSION}.gem")
 end
 
 task :version_set, [:version] do |_, args|
